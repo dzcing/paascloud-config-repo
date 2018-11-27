@@ -8,9 +8,9 @@ spring:
 
 liquibase:
   change-log: classpath:liquibase/index.xml
-  user: ${spring.datasource.username}
-  password: ${spring.datasource.password}
-  url: ${spring.datasource.url}
+  user: root
+  password: root
+  url: jdbc:mysql://192.168.200.1:3306/paascloud_tpc?characterEncoding=utf8&useSSL=false
 
 mybatis:
   type-aliases-package: com.paascloud.provider.model.domain
