@@ -53,8 +53,8 @@ zuul:
 #       uac-route: oauth2
 #       mdc-route: oauth2
 
-paascloud:
-  enableSqlLogInterceptor: false
+# paascloud:
+#   enableSqlLogInterceptor: false
 # swagger butler配置
 swagger.butler:
   api-docs-path: v2/api-docs
