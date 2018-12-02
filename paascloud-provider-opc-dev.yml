@@ -14,7 +14,7 @@ spring:
     joda-date-time-format: yyyy-MM-dd HH:mm:ss
     date-format: yyyy-MM-dd HH:mm:ss
   datasource:
-    url: jdbc:mysql://192.168.200.1:3306/paascloud_opc?useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/paascloud_opc?useUnicode=true&characterEncoding=UTF-8
     user: root
     password: root
 
@@ -22,7 +22,7 @@ liquibase:
   change-log: classpath:liquibase/index.xml
   user: root
   password: root
-  url: jdbc:mysql://192.168.200.1:3306/paascloud_opc?useUnicode=true&characterEncoding=UTF-8
+  url: jdbc:mysql://localhost:3306/paascloud_opc?useUnicode=true&characterEncoding=UTF-8
 
 mybatis:
   type-aliases-package: com.paascloud.provider.model.domain
