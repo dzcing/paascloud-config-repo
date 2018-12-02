@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/paascloud_zipkin?characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://localhost:3306/paascloud_zipkin?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
     # schema: classpath:/mysql.sql
     user: root
     password: root
