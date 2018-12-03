@@ -9,12 +9,12 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/paascloud_test?characterEncoding=utf8&useSSL=false
     user: root
-    password: root
+    password: 123456
 
 liquibase:
   change-log: classpath:liquibase/index.xml
   user: root
-  password: root
+  password: 123456
   url: jdbc:mysql://localhost:3306/paascloud_test?characterEncoding=utf8&useSSL=false
 
 mybatis:
