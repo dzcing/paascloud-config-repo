@@ -7,7 +7,7 @@ spring:
   cache:
     cache-names: mdc-cache
   datasource:
-    url: jdbc:mysql://192.168.200.1:3306/paascloud_test?characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://localhost:3306/paascloud_test?characterEncoding=utf8&useSSL=false
     user: root
     password: root
 
@@ -15,7 +15,7 @@ liquibase:
   change-log: classpath:liquibase/index.xml
   user: root
   password: root
-  url: jdbc:mysql://192.168.200.1:3306/paascloud_test?characterEncoding=utf8&useSSL=false
+  url: jdbc:mysql://localhost:3306/paascloud_test?characterEncoding=utf8&useSSL=false
 
 mybatis:
   type-aliases-package: com.paascloud.provider.model.domain
