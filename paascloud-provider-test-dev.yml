@@ -7,8 +7,7 @@ spring:
   cache:
     cache-names: mdc-cache
   datasource:
-    url: jdbc:mysql://localhost:3306/paascloud_test?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
-    driver: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/paascloud_test?characterEncoding=utf8&useSSL=false
     user: root
     password: 123456
 
